@@ -1,0 +1,5 @@
+Method,Seasonality_Mode,Holiday_Regressor,Train_Months,Test_Months,Best_CPS,Best_SPS,MAE,RMSE,MAPE,R2
+A: Raw (no treatment),additive,False,65,17,0.3,1.0,2644.3,2917.6,11.14,-3.7836
+B: Seasonal-mean interpolation,additive,False,65,17,0.1,5.0,2310.6,2669.3,9.81,-3.004
+C: Drop COVID months (v5),additive,False,54,14,0.3,1.0,2041.7,2217.7,8.67,-1.8606
+D: Holiday + multiplicative,multiplicative,True,65,17,0.3,1.0,2596.6,2905.3,10.93,-3.7432

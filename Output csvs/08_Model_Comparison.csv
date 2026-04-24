@@ -1,0 +1,9 @@
+Rank,Model,MAE,RMSE,MAPE,R2,Best_Params
+1,Prophet,639.6,734.8,2.71,0.686,"{'changepoint_prior_scale': 0.3, 'seasonality_prior_scale': 1.0}"
+2,XGBoost,1138.7,1511.9,4.98,-0.3295,"{'subsample': 1.0, 'reg_lambda': 2.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 1.0}"
+3,GradientBoost,1336.4,1825.6,5.88,-0.9385,"{'subsample': 1.0, 'n_estimators': 200, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_depth': 6, 'learning_rate': 0.01}"
+4,Holt-Winters,1814.5,2113.8,7.77,-1.5987,"{'trend': None, 'seasonal': 'mul'}"
+5,Random Forest,1940.9,2297.3,8.44,-2.0695,"{'n_estimators': 500, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 0.5, 'max_depth': None}"
+6,LightGBM,2018.7,2483.5,8.74,-2.5873,"{'subsample': 0.6, 'reg_lambda': 0, 'reg_alpha': 0, 'num_leaves': 63, 'n_estimators': 400, 'min_child_samples': 10, 'max_depth': -1, 'learning_rate': 0.15, 'colsample_bytree': 0.9}"
+7,Theta,2361.0,2749.5,10.13,-3.3968,"theta=2, additive deseasoning, period=12"
+8,SARIMA,2623.2,2850.5,11.17,-3.7258,"order=(2, 1, 2) seasonal=(1, 1, 0, 12) AIC=467.8"
