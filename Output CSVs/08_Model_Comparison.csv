@@ -1,9 +1,0 @@
-Rank,Model,MAE,RMSE,MAPE,R2,Best_Params
-1,Prophet,851.3,1151.1,3.6,0.2554,"{'changepoint_prior_scale': 0.05, 'seasonality_prior_scale': 10.0}"
-2,XGBoost,1069.3,1366.7,4.57,-0.0497,"{'subsample': 1.0, 'reg_lambda': 2.0, 'reg_alpha': 0, 'n_estimators': 100, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 1.0}"
-3,Holt-Winters,1490.8,1823.3,6.37,-0.8682,"{'trend': 'add', 'seasonal': 'mul'}"
-4,GradientBoost,1589.6,2001.3,6.85,-1.2506,"{'subsample': 0.9, 'n_estimators': 300, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_depth': 5, 'learning_rate': 0.1}"
-5,LightGBM,1607.5,2067.9,6.97,-1.4029,"{'subsample': 0.9, 'reg_lambda': 0.5, 'reg_alpha': 0.1, 'num_leaves': 80, 'n_estimators': 200, 'min_child_samples': 10, 'max_depth': 5, 'learning_rate': 0.05, 'colsample_bytree': 0.6}"
-6,Theta,2123.7,2495.6,9.08,-2.4996,"theta=2, additive deseasoning, period=12"
-7,Random Forest,2151.1,2475.7,9.24,-2.4441,"{'n_estimators': 100, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 1.0, 'max_depth': 8}"
-8,SARIMA,2452.0,3006.3,10.49,-4.0786,"order=(2, 1, 2) seasonal=(0, 1, 1, 12) AIC=642.9"
